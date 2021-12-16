@@ -17,8 +17,9 @@ export default function Header() {
           </svg>
         </button>
       </div>
-      <div className='flex-1 hidden px-2 mx-2 lg:flex'>
+      <div className='flex-1 hidden px-2 mx-2 lg:flex space-x-4'>
         <Link href='/users'>Robos</Link>
+        <Link href='/users-filter'>Filter</Link>
       </div>
       <div className='flex-1 lg:flex-none'>
         <div className='form-control'>
