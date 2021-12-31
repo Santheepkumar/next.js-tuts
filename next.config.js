@@ -4,6 +4,9 @@ module.exports = {
   images: {
     domains: ["robohash.org"],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   async redirects() {
     return [
       {
